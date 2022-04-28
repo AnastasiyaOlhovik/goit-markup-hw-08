@@ -1,0 +1,140 @@
+    
+.footer-container {
+    display: flex;
+    align-items: baseline;  
+
+&__logo-second {
+        color: #EEEEEE;
+        font-weight: bold;}
+
+
+        
+&__litter-contact{
+    display: block;
+    margin-bottom: 9px;
+    line-height: 24px;
+    letter-spacing:0.03em;
+    text-decoration: none;
+    font-style: normal;}
+
+&__all-vector { display:inline-block;
+        margin-left: 70px;}
+
+    
+&__logo{  
+        font-family:  "Raleway", sans-serif;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        margin-bottom: 0px;} 
+
+&__logos{
+        font-size: 26px;
+        font-weight: bold;
+        font-family: "Raleway", sans-serif}    
+   
+
+
+&__vector{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing:0.03em;}
+
+
+
+&__socials-footer { display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        background-size: 20px;
+        background-position: center;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+
+&__icon-footer {fill: #EEEEEE;}
+
+&__socials-footer:hover,
+&__socials-footer:focus{
+    background-color: #2196f3;}    
+
+
+&__point {
+    margin-bottom: 0px;
+    line-height: 24px;
+    letter-spacing:0.03em;
+    font-style: normal;
+    border-top: 9px;
+color: rgba(255, 255, 255, 0.6)}
+
+
+&__form-container {margin-left: auto;}
+
+&__all-form{
+    display: flex;}    
+
+
+&__form-label{
+     position: absolute;}    
+
+&__from-input{
+     color: #EEEEEE;
+     background-color:rgba(47, 48, 58, 1);
+     margin: 0;
+     width: 358px;
+     padding: 16px;
+     border-radius: 4px;
+     border: 1px solid rgba(255, 255, 255, 0.3);}
+
+
+&__form-btn{
+      position: relative;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      width: 200px;
+      height: 50px;
+      background-color: #2196F3;
+      margin-left: 12px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      border-color: transparent;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.06em;
+      color: #FFFFFF;
+      cursor: pointer;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+      
+      
+
+
+&__icon-btn{
+        position: absolute;
+        margin-left: 10px;
+       align-self: baseline;
+       transform: translate(70px, 12px);}   
+         
+&__from-name {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing:0.03em;}
+    
+&__centre-btn {
+            justify-content: center;}   
+            
+            
+&__cont-form {margin-left: auto;}  }      
+
+    .form-btn:hover .form-btn:focus{
+        outline: transparent;
+        background-color: #188ce8;}

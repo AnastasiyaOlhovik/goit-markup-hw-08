@@ -1,0 +1,46 @@
+.section-box {
+    padding-top: 0px;    
+    padding-bottom: 94px;
+  
+
+&__box-header {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size:36px;
+    line-height:1.16;
+    text-align: center;}
+
+&__box-img { display: flex;
+    justify-content: space-between;}
+
+&__box-img &__item {width: 370px;
+height: 294px;
+left: 215px;}
+
+&__label {
+    position: relative;}
+
+
+&__label::before{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    background-position: 50% 100%;}   
+
+
+&__name-label {
+    position: absolute;
+    top:85%;
+    display: flex;
+    transform: translateX(43%);
+    color:#FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 14px;} 
+
+    
+}

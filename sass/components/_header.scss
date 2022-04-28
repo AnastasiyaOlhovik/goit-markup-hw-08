@@ -1,0 +1,109 @@
+.page-header {
+    display: flex;
+
+
+
+&__site-nav {
+        display: flex;
+        align-items: center;}
+    
+    
+&__site-nav  &__item +  &__item {
+            margin-left: 50px;}
+        
+&__item--link {
+        position: relative;}
+    
+&__site-nav  &__item--link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;}
+    
+&__site-nav   &__item--link:hover,
+&__site-nav   &__item--link:focus{
+    color:var(--accent-color); }
+
+
+&__logo{
+        font-family:  "Raleway", sans-serif;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        margin-bottom: 0px;}
+        
+
+&__logos{
+            font-size: 26px;
+            font-weight: bold;
+            font-family: "Raleway", sans-serif;}
+    
+  
+&__communication {
+                display: flex;
+                line-height:1.14;
+                padding-top: 32px;
+                padding-bottom: 32px;
+                color: var(--title-text-color);
+                transition-property: color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                text-decoration: none;}
+
+&__contact-nav {
+    display: inline-flex;
+    margin-left: auto; 
+    font-family: Roboto, sans-serif;
+    font-weight: 500;    
+    line-height: 1.14;}
+
+&__icon-item {
+    fill:#757575;  
+    margin-right: 10px;
+    margin-left: 50px;}
+
+&__icon-mail {
+    margin-right: 10px;
+    fill: #757575;
+    align-self: center;}
+      
+&__communication:hover &__icon-mail,
+&__communication:focus &__icon-mail{  
+                    fill: #2196F3;}
+                    
+&__communication:hover &__icon-item,
+&__communication:focus &__icon-item{  
+                    fill: #2196F3;}        
+                        
+&__communication:hover,
+&__communication:focus {  
+color: var(--accent-color);}
+
+&__item--current::after { 
+    position: absolute;
+    content:'';
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px;}
+
+}
+
+.logo-second {
+color: black;
+font-weight: bold;}
+
+
+   

@@ -1,0 +1,33 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+&__filter-nav {
+    margin-bottom: 50px;
+    text-align: center;}
+
+&__filter-nav--filter{
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.62;
+    cursor: pointer;
+    border: transparent;
+    letter-spacing: 0.03em;
+    width: 103px;
+    height: 38px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+&__filter-nav  &__filter-nav--filter +  &__filter-nav--filter
+{margin-left: 8px;}
+
+&__filter-nav--filter:hover,
+&__filter-nav--filter:focus{
+color: var(--primary-bg-color);
+background-color: var(--accent-color);}
+
+}
