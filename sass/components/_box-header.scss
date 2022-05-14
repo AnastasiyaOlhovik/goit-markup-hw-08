@@ -1,6 +1,13 @@
 .section-box {
     padding-top: 0px;    
     padding-bottom: 94px;
+
+
+    @media screen and (min-width:480px) {
+        display: none;} 
+    
+        @media screen and (min-width: 768px) {
+            display: none;}     
   
 
 &__box-header {

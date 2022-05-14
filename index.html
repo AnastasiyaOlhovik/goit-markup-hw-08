@@ -18,6 +18,12 @@
     <div  class="container page-header">
     <nav class="page-header__site-nav">
       <a href="./index.html" class="page-header__logo page-header__logos" lang="en" style= "color: #2196F3;">Web<span class="logo-second logos">Studio</span></a>
+        <button type="button" class="menu-btn" aria-label="Кнопка відкриття меню" aria-expanded="false"  data-menu-button> 
+        <svg class="menu-btn__icon" width="40" height="40">
+        <use class="menu-btn__icon-open" href="./images/icons.svg#open-icon"> </use>
+        <use class="menu-btn__icon-close" href="./images/icons.svg#close-icon"> </use>
+        </svg>
+      </button>  
       <ul class="nav">
             <li class="page-header__item">
               <a href="./studio.tml" class="page-header__item--link  page-header__item--current" style= "color: #2196F3;">Студия</a>
@@ -33,24 +39,24 @@
       
         <ul class="page-header__contact-nav">
         <li>
-           <a class="page-header__communication" href="mailto:info@devstudio.com" > 
+           <a class="page-header__communication page-header__mail" href="mailto:info@devstudio.com" > 
               <svg class="page-header__icon-mail" width = "16" height = "12" >
             <use href="./images/icons.svg#envelope"></use>
           </svg>info@devstudio.com</a>
         </li>
        <li>
-          <a class="page-header__communication"   href="tel:+380961111111" ><svg class="page-header__icon-item" width = "10" height = "16">
+          <a class="page-header__communication  page-header__tel"   href="tel:+380961111111" ><svg class="page-header__icon-item" width = "10" height = "16">
             <use href="./images/icons.svg#smartfone"></use></svg>+38 096 111 111 1 </a>
           </li>
          </ul>
         </div>
-      
-  </header>
- <main>
+          </header>
+ 
+<main>
 
 
 <section class="hero">
-  <div class="container">
+  <div >
   <h1 class="hero__hero-title">Эффективные решения  для вашего бизнеса</h1>
  <button type="button" class="hero__button-header" data-modal-open>Заказать услугу</button>
 </div>
@@ -132,13 +138,25 @@
 
   <!-- Команда -->
 
-  <section class="section cooper">
-    <div class="container">
+  <section class="container   cooper">
+    <div class="section">
     <h2 class="section__team-header"> Наша команда </h2>
+    <div class="section__card">
 <ul class="section__team-card">
-    <li class="section__worker"> <img src="./images/demynenko.jpg" alt="Фото Демьяненко" width="270">
+    <li class="section__worker"> 
+      <picture>
+        <source srcset="./images/demiynenko1x.jpg, ./images/demiynenko2x.jpg" media="(max-widht:767px)" 
+        type="image/jpeg" />
+
+        <img class="gallery-img"
+        src="./images/demiynenko1x.jpg"
+        src="./images/demiynenko2x.jpg"
+        alt="Фото"
+        width="450"
+        height="460"/>
+      </picture>
     <div class="section--team">
-    <h3 class="sectoin--text">Игорь Демьяненко</h3> 
+    <h3 class="section--text">Игорь Демьяненко</h3> 
     <p class="section--srift"> Product Designer</p>
      <ul class="section__socials">
        <li class="section__socials-item">
@@ -172,7 +190,18 @@
     </ul>
 </div>
   </li>
-  <li class="section__worker"> <img  src="./images/repina.jpg" alt="Фото Репина" width="270">
+  <li class="section__worker"> 
+    <picture>
+    <source srcset="./images/repina1x.jpg, ./images/repina2x.jpg" media="(max-widht:767px)" 
+    type="image/jpeg" />
+
+    <img class="gallery-img"
+    src="./images/repina1x.jpg"
+    src="./images/repina2x.jpg"
+    alt="Фото"
+    width="450"
+    height="460"/>
+  </picture>
       <div class="section--team">
     <h3 class="section--text"> Ольга Репина </h3> 
      <p class="section--srift">Frontend Developer </p> 
@@ -208,9 +237,20 @@
    </ul>
     </div>
   </li>
-    <li class="section__worker"> <img src="./images/tarasov.jpg" alt="Фото Тарасов" width="270">
+    <li class="section__worker"> 
+      <picture>
+        <source srcset="./images/tarasov1x.jpg, ./images/tarasov2x.jpg" media="(max-widht:767px)" 
+        type="image/jpeg" />
+    
+        <img class="gallery-img"
+        src="./images/tarasov1x.jpg"
+        src="./images/tarasov2x.jpg"
+        alt="Фото"
+        width="450"
+        height="460"/>
+      </picture>
       <div class="section--team">
-     <h3 class="section--text"> Николай Тарасов </h3> 
+      <h3 class="section--text"> Николай Тарасов </h3> 
      <p class="section--srift"> Marketing </p>
      <ul class="section__socials">
       <li class="section__socials-item">
@@ -244,7 +284,17 @@
    </ul>
     </div>
    </li>
-    <li class="section__worker"> <img src="./images/ermakov.jpg" alt="Фото Ермаков" width="270">
+    <li class="section__worker">  <picture>
+      <source srcset="./images/ermakov1x.jpg, ./images/ermakov2x.jpg" media="(max-widht:767px)" 
+      type="image/jpeg" />
+  
+      <img class="gallery-img"
+      src="./images/ermakov1x.jpg"
+      src="./images/ermakov2x.jpg"
+      alt="Фото"
+      width="450"
+      height="460"/>
+    </picture>
       <div class="section--team">
       <h3 class="section--text"> Михаил Ермаков </h3> 
      <p class="section--srift"> UI Designer </p> 
@@ -281,6 +331,7 @@
       </div>
     </li>
   </ul>
+</div>
 </div>
 </section>
 
@@ -349,7 +400,7 @@
     </svg>
    </button>
   <p class="modal__form-hd">Оставьте свои данные,мы вам перезвоним</p>
-    <form>
+    <form class="modal__all-form">
       <div class="modal--form-field">
       <label for="name">Имя</label>
      <svg class="modal--icon-form"   width = "12" height = "12" >
@@ -457,6 +508,52 @@
 </div>
 </div>
 </footer>
+
+
+<!-- Мобильное меню-->
+
+<div class="mobile-menu" data-menu>
+  <nav class="mobile-nav">
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item"> 
+        <a class="mobile-nav__link" href="">Студия</a>
+      </li>
+      <li class="mobile-nav__item"> 
+        <a class="mobile-nav__link" href="./portfolio.html">Портфолио</a>
+      </li>
+      <li class="mobile-nav__item"> 
+        <a class="mobile-nav__link" href="">Контакты</a>
+      </li>
+      </ul>
+  </nav>
+
+
+  <ul class="mobile-contacts">
+    <li class="mobile-contacts__tel">
+  <a class="mobile-contacts__link  link" href="+38 096 111 11 11">+38 096 111 11 11</a>
+</li>
+<li  class="mobile-contacts__mail">
+  <a class="mobile-contacts__list  link" href="info@devstudio.com">info@devstudio.com</a>
+</li>
+</ul>
+
+<ul class="socials">
+  <li class="socials__item">
+    <a class="socials__link socials__item--current" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+</li>
+  <li class="socials__item">
+    <a class="socials__link  socials__item--current" href="" target="_blank" rel="noopener noreferrer">Twitter</a>
+  </li>
+  <li class="socials__item">
+    <a class="socials__link  socials__item--current" href="" target="_blank" rel="noopener noreferrer">Facebook</a>
+  </li>
+  <li class="socials__item">
+    <a class="socials__link " href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </li>
+</ul>
+</div>
+
+<script src="./js/menu.js"></script>
 <script src="./js/modal.js"></script>
 </body>
 </html>

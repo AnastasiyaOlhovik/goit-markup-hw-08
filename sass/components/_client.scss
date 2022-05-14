@@ -6,7 +6,12 @@
 &__constanta{ 
     display: flex;
  justify-content: center;
- margin-top: 50px;} 
+ margin-top: 50px;
+
+
+ @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+    margin: -15px}} 
 
 
  &__client {
@@ -21,18 +26,26 @@
      border-radius: 4px;
      transition-property: color;
      transition-duration: 250ms;
-     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+     @media screen and (min-width:480px)  and (max-width:767px) {
+        width: 210px;
+        margin: 15px;
+     }}
 
 
  &--client-icon {fill: #AFB1B8;}
+
+ 
  
 
- &--client-item:not(:last-child){ margin-right: 30px;}
+
+
+ // &--client-item:not(:last-child){ margin-right: 30px;}
 
  
  &__client:hover  &--client-icon,
  &__client:focus  &--client-icon{  fill: #2196F3;}
      
  &__client:hover,
- &__client:focus { border: 1px solid #2196f3;}
-}
+ &__client:focus { border: 1px solid #2196f3;}}

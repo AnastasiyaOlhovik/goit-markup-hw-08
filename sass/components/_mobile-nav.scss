@@ -1,0 +1,27 @@
+.mobile-nav {
+  display: block;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.17;
+  margin-bottom: 302px;
+  letter-spacing: 0.02em;
+ 
+
+
+  &__item {
+      margin-bottom: 32px;
+   }
+
+
+   &__link{
+    color: rgba(33, 33, 33, 1);}
+
+
+    &__link:hover ,
+    &__link:hover {
+      color: rgba(33, 150, 243, 1);
+    }
+
+  
+  
+}

@@ -16,6 +16,12 @@
   <div class="container page-header " >
   <nav class="page-header__site-nav">
       <a href="./index.html" class="page-header__logo  page-header__logos" lang="en" style= "color: #2196F3;" >Web<span class="logo-second  logos">Studio</span></a>
+      <button type="button" class="menu-btn" aria-label="Кнопка відкриття меню" aria-expanded="false"  data-menu-button> 
+        <svg class="menu-btn__icon" width="40" height="40">
+        <use class="menu-btn__icon-open" href="./images/icons.svg#open-icon"> </use>
+        <use class="menu-btn__icon-close" href="./images/icons.svg#close-icon"> </use>
+        </svg>
+      </button>  
       <ul class="nav">
             <li class="page-header__item"><a href="./index.html" class="page-header__item--link">Студия</a></li>
             <li class="page-header__item"><a href="./portfolio.html" class="page-header__item--link  page-header__item--current"  style= "color: #2196F3;">Портфолио</a></li>
@@ -43,8 +49,10 @@
 <button type="button" class="section__filter-nav--filter  section__filter-nav--but-shadow">Все</button>
 <button type="button" class="section__filter-nav--filter  section__filter-nav--but-shadow" >Веб-сайты</button>
 <button type="button" class="section__filter-nav--filter  section__filter-nav--but-shadow">Приложения</button>
+<div class="section__filter-only">
 <button type="button" class="section__filter-nav--filter  section__filter-nav--but-shadow">Дизайн</button>
 <button type="button" class="section__filter-nav--filter  section__filter-nav--but-shadow" >Маркетинг</button>
+</div>
 </div>
 
 
@@ -53,7 +61,17 @@
   <li class="section__element ">  
     <a class="section__span-shadow" href="">
       <div class="section__overlay">
-   <img  src="./images/texno.png" alt="Технокряк" width="370">
+        <picture>
+          <source srcset="./images/texnokryk1x.jpg, ./images/texnokryk2x.jpg" media="(max-widht:767px)" 
+          type="image/jpeg" />
+  
+          <img class="gallery-img"
+          src="./images/texnokryk1x.jpg"
+          src="./images/texnokryk2x.jpg"
+          alt="Фото"
+          width="450"
+          height="294"/>
+        </picture>
   <div class="section--overlay-card">
    <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -71,7 +89,17 @@
 <li class="section__element">
   <a class="section__span-shadow" href="">
   <div class="section__overlay">
-      <img src="./images/постер.png" alt="Постер New Orlean vs Golden Star" width="370">
+    <picture>
+      <source srcset="./images/poster1x.jpg, ./images/poster2x.jpg" media="(max-widht:767px)" 
+      type="image/jpeg" />
+
+      <img class="gallery-img"
+      src="./images/poster1x.jpg"
+      src="./images/poster2x.jpg"
+      alt="Фото"
+      width="450"
+      height="294"/>
+    </picture>
   <div class="section--overlay-card">
     <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
      Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -88,7 +116,17 @@
 <li class="section__element">
   <a class="section__span-shadow" href="">
     <div class="section__overlay">
-<img src="./images/ресторан.png" alt="Ресторан Seafood" width="370">
+      <picture>
+        <source srcset="../images/restoran1x.jpg, ./images/restoran2x.jpg" media="(max-widht:767px)" 
+        type="image/jpeg" />
+  
+        <img class="gallery-img"
+        src="./images/restoran1x.jpg"
+        src="./images/restoran2x.jpg"
+        alt="Фото"
+        width="450"
+        height="294"/>
+      </picture>
 <div class="section--overlay-card">
   <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -105,7 +143,17 @@
 <li class="section__element">
   <a class="section__span-shadow" href="">
   <div class="section__overlay">
-<img src="images/наушники.png" alt="Наушники" width="370">
+    <picture>
+      <source srcset="./images/наушники1х.jpg, ./images/наушники 2х.jpg" media="(max-widht:767px)" 
+      type="image/jpeg" />
+
+      <img class="gallery-img"
+      src="./images/наушники1х.jpg"
+      src="./images/наушники 2х.jpg"
+      alt="Фото"
+      width="450"
+      height="294"/>
+    </picture>
   <div class="section--overlay-card">
     <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
      Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -122,7 +170,17 @@
   <li class="section__element">
     <a  class="section__span-shadow" href="">
       <div class="section__overlay">
-<img src="./images/проект.png" alt="Проект" width="370">
+        <picture>
+          <source srcset="./images/box1х.jpg, ./images/box2х.jpg" media="(max-widht:767px)" 
+          type="image/jpeg" />
+    
+          <img class="gallery-img"
+          src="./images/box1х.jpg"
+          src="./images/box2x.jpg"
+          alt="Фото"
+          width="450"
+          height="294"/>
+        </picture>
 <div class="section--overlay-card">
   <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -138,7 +196,17 @@
 <li class="section__element">
   <a class="section__span-shadow" href="">
   <div class="section__overlay">
-  <img src="./images/inspiration.png" alt="Монитор" width="370">
+    <picture>
+      <source srcset="./images/monitor1x.jpg, ./images/monitor2x.jpg" media="(max-widht:767px)" 
+      type="image/jpeg" />
+
+      <img class="gallery-img"
+      src="./images/monitor1x.jpg"
+      src="./images/monitor2x.jpg"
+      alt="Фото"
+      width="450"
+      height="294"/>
+    </picture>
  <div class="section--overlay-card">
   <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -154,7 +222,17 @@
   <li class="section__element">
     <a class="section__span-shadow" href="">
     <div class="section__overlay">
-    <img src="./images/издание.png" alt="Журнал" width="370">
+      <picture>
+        <source srcset="./images/журнал1х.jpg,  ./images/журнал2х.jpg" media="(max-widht:767px)" 
+        type="image/jpeg" />
+  
+        <img class="gallery-img"
+        src="./images/журнал1х.jpg"
+        src="./images/журнал2х.jpg"
+        alt="Журнал"
+        width="450"
+        height="294"/>
+      </picture>
     <div class="section--overlay-card">
       <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
        Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -170,7 +248,17 @@
     <li class="section__element">
       <a class="section__span-shadow" href="">
       <div class="section__overlay">
-      <img src="./images/LabelTag.png" alt="Этикетка" width="370">
+        <picture>
+          <source srcset="./images/ярлик1х.jpg,  ./images/ярлик2х.jpg" media="(max-widht:767px)" 
+          type="image/jpeg" />
+    
+          <img class="gallery-img"
+          src="./images/ярлик1х.jpg"
+          src="./images/ярлик2х.jpg"
+          alt="Журнал"
+          width="450"
+          height="294"/>
+        </picture>
       <div class="section--overlay-card">
         <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
          Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -186,7 +274,17 @@
       <li class="section__element">
         <a class="section__span-shadow" href="">
         <div class="section__overlay">
-        <img src="./images/growing.png" alt="Набор текста" width="370">
+          <picture>
+            <source srcset="./images/computer1x.jpg,  ./images/computer2x.jpg" media="(max-widht:767px)" 
+            type="image/jpeg" />
+      
+            <img class="gallery-img"
+            src="./images/computer1x.jpg"
+            src="./images/computer2x.jpg"
+            alt="Журнал"
+            width="450"
+            height="294"/>
+          </picture>
       <div class="section--overlay-card">
         <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
          Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -267,6 +365,51 @@
     </div>
     </div>
   </footer>
+
+<!-- Мобильное меню-->
+
+<div class="mobile-menu" data-menu>
+  <nav class="mobile-nav">
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item"> 
+        <a class="mobile-nav__link" href="./index.html">Студия</a>
+      </li>
+      <li class="mobile-nav__item"> 
+        <a class="mobile-nav__link" href="./portfolio.html">Портфолио</a>
+      </li>
+      <li class="mobile-nav__item"> 
+        <a class="mobile-nav__link" href="">Контакты</a>
+      </li>
+      </ul>
+  </nav>
+
+
+  <ul class="mobile-contacts">
+    <li class="mobile-contacts__tel">
+  <a class="mobile-contacts__link  link" href="+38 096 111 11 11">+38 096 111 11 11</a>
+</li>
+<li  class="mobile-contacts__mail">
+  <a class="mobile-contacts__list  link" href="info@devstudio.com">info@devstudio.com</a>
+</li>
+</ul>
+
+<ul class="socials">
+  <li class="socials__item">
+    <a class="socials__link socials__item--current" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+</li>
+  <li class="socials__item">
+    <a class="socials__link  socials__item--current" href="" target="_blank" rel="noopener noreferrer">Twitter</a>
+  </li>
+  <li class="socials__item">
+    <a class="socials__link  socials__item--current" href="" target="_blank" rel="noopener noreferrer">Facebook</a>
+  </li>
+  <li class="socials__item">
+    <a class="socials__link " href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </li>
+</ul>
+</div>
+
+<script src="./js/menu.js"></script>
 
 </body>
 

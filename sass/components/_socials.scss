@@ -1,0 +1,24 @@
+.socials{
+    display: flex;
+
+
+    &__item--current::after {
+        position: relative;
+        content: "";
+        bottom: 0;
+        left: 0;
+        display: inline list-item;
+        width: 22px;
+        height: 0px;
+        border-radius: 1px;
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+        margin: 10px;
+    }
+
+&__link{
+font-size: 18px;
+line-height: 1.22;
+letter-spacing: 0.02em;
+color: #2196F3;
+margin-right: 0px;
+}}

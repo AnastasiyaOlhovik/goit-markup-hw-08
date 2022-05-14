@@ -1,0 +1,24 @@
+.mobile-contacts {
+    display: block;
+    margin-bottom: 64px;
+
+
+    &__link {
+        font-family: Roboto;
+         font-size: 34px;
+         line-height: 1.17;
+         letter-spacing: 0.02em;
+         color: #2196F3;}    
+
+
+
+ &__list { 
+font-size: 24px;
+line-height: 1.16;
+letter-spacing: 0.02;
+color: #757575;}
+
+&__mail{
+    margin-top: 32px;
+}
+}
