@@ -145,21 +145,15 @@
 <ul class="section__team-card">
     <li class="section__worker"> 
       <picture>
-        <source srcset="
-        ./images/demiynenko1x.jpg 1x,
-        ./image/demiynenko2x.jpg  2x" 
-        media="(min-widht:480px)" 
-        type="img/jpg"/>
+        <source srcset="./images/demiynenko_mob.jpg 1x, ./images/demiynenko@2x.jpg   2x" 
+        media="(max-widht: 767px)" />
 
-        <source srcset="
-        ./images/dem1xtablet.jpg 1x,
-        ./images/dem2xtablet.jpg 2x" 
-        media="(min-widht:768px)"
-         type="img/jpg" />
+        <source srcset="./images/dem_tablet.jpg 1x, ./images/dem@2tablet.jpg 2x"  media="(max-widht: 1199px)" />
+
+        <source srcset="./images/demynenko.jpg 1x, ./images/dem_desktop@2x.jpg 2x "  media="(min-widht: 1200px)" />
 
       <img class="gallery-img"
-        src="./images/demiynenko1x.jpg"
-        src="./images/demiynenko2x.jpg"/>
+        src="./images/demiynenko_mob.jpg"/>
       </picture>
     <div class="section--team">
     <h3 class="section--text">Игорь Демьяненко</h3> 
@@ -198,17 +192,15 @@
   </li>
   <li class="section__worker"> 
     <picture>
-    <source srcset="./images/repina1x.jpg 1x, 
-                    ./images/repina2x.jpg 2x" media="(max-widht:480px)" 
-    type="image/jpg" />
+    <source srcset="./images/repina_mob.jpg 1x, ./images/repina@2.jpg 2x" media="(max-widht: 767px)" />
 
-    <source srcset="/images/repina1xtablet.jpg 1x,
-                    /images/repina2xtablet.jpg 2x" media="(max-widht:767px)" 
-    type="image/jpg" />
+    <source srcset="./images/repina_tablet.jpg 1x, ./images/repina@2tablet.jpg 2x" media="(max-widht: 1199px)"  />
+
+    
+    <source srcset="./images/repina.jpg 1x, ./images/repina_desktop@2x.jpg 2x" media="(min-widht: 1200px)"  />
 
     <img class="gallery-img"
-    src="./images/repina1x.jpg"
-    src="./images/repina2x.jpg"
+    src="./images/repina_mob.jpg"
     alt="Фото"/>
   </picture>
       <div class="section--team">
@@ -248,16 +240,14 @@
   </li>
     <li class="section__worker"> 
       <picture>
-        <source srcset="./images/tarasov1x.jpg, ./images/tarasov2x.jpg" media="(min-widht:480px)" 
-        type="image/jpeg" />
+        <source srcset="./images/tarasov_mob.jpg 1x, ./images/tarasov@2x.jpg 2x" media="(max-widht: 767px)" />
 
-        <source srcset="./images/tarasov1xtablet.jpg 1x, ./images/tarasov2xtablet.jpg 2x " media="(min-widht:767px)" 
-        type="image/jpeg" />
-    
+        <source srcset="./images/tarasov_tablet.jpg 1x, ./images/tarasov@2xtablet.jpg 2x " media="(max-widht: 1199px)" />
+
+        <source srcset="./images/tarasov.jpg 1x, ./images/tarasov_desktop@2x.jpg 2x " media="(min-widht: 1200px)" />
+
         <img class="gallery-img"
-        src="./images/tarasov1x.jpg"
-        src="./images/tarasov2x.jpg"
-        alt="Фото"/>
+        src="./images/tarasov_mobil.jpg" alt="Фото"/>
       </picture>
       <div class="section--team">
       <h3 class="section--text"> Николай Тарасов </h3> 
@@ -295,16 +285,14 @@
     </div>
    </li>
     <li class="section__worker">  <picture>
-      <source srcset="./images/ermakov1x.jpg, ./images/ermakov2x.jpg" media="(min-widht:480px)" 
-      type="image/jpg" />
+      <source srcset="./images/ermakov_mob.jpg 1x, ./images/ermakov@2x.jpg " media="(max-widht: 767px)"  />
 
-      <source srcset="./images/ermakov1xtablet.jpg 1x, ./images/ermakov2xtablet.jpg 2x" media="(min-widht:480px)" 
-      type="image/jpg" />
+      <source srcset="./images/ermakov_tablet.jpg 1x, ./images/ermakov@2xtablet.jpg 2x" media="(max-widht: 1199px)" />
+
+      <source srcset="./images/ermakov.jpg 1x, ./images/ermakov_desktop@2x.jpg 2x" media="(min-widht: 1200px)" />
 
       <img class="gallery-img"
-      src="./images/ermakov1x.jpg"
-      src="./images/ermakov2x.jpg"
-      alt="Фото"/>
+      src="./images/ermakov_mobil.jpg"  alt="Фото"/>
     </picture>
       <div class="section--team">
       <h3 class="section--text"> Михаил Ермаков </h3> 
@@ -457,6 +445,7 @@
 <footer>
   <div class="footer">
        <div class="container  footer-container">
+         <div class="section-contacts">
       <div class="footer-container__podval">
      <a href="./index.html" class="footer-container__logo footer-container_logos" lang="en" style="color: #2196F3;">Web<span class="footer-container_logo-second  name  logos">Studio</span></a>
       <address>
@@ -501,6 +490,7 @@
    </a>
  </li>
  </ul>
+</div>
 </div>
 
 <form class="footer-container__form-container" >
