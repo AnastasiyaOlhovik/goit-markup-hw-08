@@ -109,9 +109,9 @@ color: rgba(255, 255, 255, 0.6)}
 &__all-form{
     display: flex;
 
-    @media screen and (max-width:480px) and (min-width: 767px) {
+    @media screen and (min-width:480px) and (max-width: 767px) {
         display: block;}
-        
+
         @media screen and (min-width: 768px)  and (max-width: 1199px){
             display: block;
     
@@ -132,7 +132,11 @@ color: rgba(255, 255, 255, 0.6)}
     
      @media screen and (min-width:480px)  and (max-width:767px){
          width: 418px;
-     }}
+     }
+    
+    @media screen and  (min-width: 768px) {
+        width: 450px;
+    }}
 
 
 &__form-btn{
@@ -156,9 +160,16 @@ color: rgba(255, 255, 255, 0.6)}
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-      @media screen and (min-width:480px)  and (max-width: 1199px){
+      @media screen and (min-width:480px) and (max-width: 767px) {
+        display: inline-flex;
+       margin-top: 20px;}
+    
+    @media screen and (max-width:768px){
+        display: flex;
         margin-top: 20px;
-        display: inline-flex;}}
+    }
+        
+    }  
     
    
       &__icon-btn{
@@ -176,20 +187,19 @@ color: rgba(255, 255, 255, 0.6)}
 
 
         @media screen and (min-width:480px) {
-            margin-top: 60px;}
+            margin-top: 60px;}}
     
 &__centre-btn {
-            justify-content: center;
+            justify-content: center;}
             
-            @media screen and (min-width:480px) {
-                display: block;}}   
+         
             
             
 &__cont-form {margin-left: auto;}      
 
     .form-btn:hover .form-btn:focus{
         outline: transparent;
-        background-color: #188ce8;}}}
+        background-color: #188ce8;}}
 
         @media screen and (min-width: 768px)  and (max-width: 1199px){
 .section-contacts {
