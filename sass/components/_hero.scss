@@ -1,15 +1,27 @@
 .hero { 
-    text-align: center;
-    padding: 200px 15px 200px 15px;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #C4C4C4;
-    background-image: linear-gradient(to bottom, rgba(47,48,58,0.4), rgba(47,48,58,0.4)) , url(/images/mobile1x.jpg);
+  text-align: center;
+  padding: 200px 15px 200px 15px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #C4C4C4;
+  background-image: linear-gradient(to bottom, rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(/images/hero.jpg);
 
     @media screen and (min-width:480px)  and (max-width:767px){
       padding: 118px 15px 118px 15px;
-      &__{background-image: linear-gradient(to bottom, rgba(47,48,58,0.4), rgba(47,48,58,0.4)) , url(/images/mobile1x.jpg);}
+
+      &{background-image: linear-gradient(to bottom, rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(/images/mobile1x.jpg);}}
+
+     
+
+
+    @media screen and (min-width:768px) and (max-width:1199px) {
+      padding: 118px 204px 118px 204px;
+    
+
+      &{background-image: linear-gradient(to bottom, rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(/images/hero1xtablet.jpg);}}
+
+
    
   
     
@@ -25,7 +37,12 @@
       
        @media screen and (min-width:480px)  and (max-width:767px){
           width: 360px;
-         font-size:26px;}}    
+         font-size:26px;}
+        
+         @media screen and (min-width:768px) and (max-width:1199px){
+          width: 360px;
+          font-size:26px;
+         }}    
    
     &__button-header {
        margin-top: 30px;
@@ -45,13 +62,7 @@
        cursor: pointer; }}
 
 
-       @media  (min-device-pixel-ratio:  2),
-              (min-resolution: 192dpi) ,
-              (min-resolution: 2dppx){
-         .hero {background-image: linear-gradient(to bottom, rgba(47,48,58,0.4), rgba(47,48,58,0.4)) , url(/images/mobile2x.jpg);}
-    
-       }
+
   
            
-            
-      
+          

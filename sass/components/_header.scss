@@ -12,7 +12,10 @@
 
 &__site-nav {
         display: flex;
-        align-items: center;}
+        align-items: center;
+    
+        @media screen and (min-width:480px)  and (max-width:767px){
+        display: contents;}}
     
     
 &__site-nav  &__item +  &__item {
@@ -68,9 +71,9 @@
 
 
                 @media screen and (min-width:768px) and (max-width:1199px) {
-                    display: flex;
                     padding-top: 0px;
-                    padding-bottom: 0px;  } }
+                    padding-bottom: 0px; 
+                    font-size: 12px; } }
 
 &__contact-nav {
     display: inline-flex;
@@ -89,6 +92,7 @@
             padding-top: 21px;
             padding-bottom: 21px;
             transform: translateX(30px);
+            display: block;
         }
 
         @media screen and (max-width: 1200px) {
@@ -98,12 +102,22 @@
 &__icon-item {
     fill:#757575;  
     margin-right: 10px;
-    margin-left: 50px;}
+    margin-left: 50px;
+
+    @media screen and (min-width:768px) and (max-width:1199px){
+        width: 10px;
+        height: 14px;
+    }}
 
 &__icon-mail {
     margin-right: 10px;
     fill: #757575;
-    align-self: center;}
+    align-self: center;
+
+    @media screen and (min-width:768px) and (max-width:1199px){
+        width: 14px;
+        height: 10px;
+    }}
       
 &__communication:hover &__icon-mail,
 &__communication:focus &__icon-mail{  
@@ -128,7 +142,7 @@ color: var(--accent-color);}
     background-color: #2196F3;
     border-radius: 2px;
 
-    @media screen and (min-width:768px) and (max-width:1199px){
+    @media screen and (min-width:480px) and (max-width:767px){
         display: none;
     }
 
@@ -140,7 +154,7 @@ color: var(--accent-color);}
 }   
 &__tel{
     @media screen and (min-width:768px) and (max-width:1199px) {
-    transform: translateX(-48px);}
+        transform: translateX(-50px);}
 
 }}
 

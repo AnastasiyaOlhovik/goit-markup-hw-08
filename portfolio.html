@@ -30,11 +30,11 @@
         </nav>
         <ul class="page-header__contact-nav  link-van">
           <li class="page-header__item">
-            <a href="mailto:info@devstudio.com" class="page-header__communication"><svg class="page-header__icon-mail" width = "16" height = "12" >
+            <a href="mailto:info@devstudio.com" class="page-header__communication page-header__mail"><svg class="page-header__icon-mail" width = "16" height = "12" >
             <use href="./images/icons.svg#envelope"></use>
           </svg>info@devstudio.com</a></li>
           <li  class="page-header__item">
-            <a href="tel:+380961111111" class="page-header__communication"><svg class="page-header__icon-item" width = "10" height = "16" >
+            <a href="tel:+380961111111" class="page-header__communication  page-header__tel"><svg class="page-header__icon-item" width = "10" height = "16" >
             <use href="./images/icons.svg#smartfone"></use></svg>+38 096 111 111 1</a></li>
          </ul>
   </div>
@@ -62,15 +62,18 @@
     <a class="section__span-shadow" href="">
       <div class="section__overlay">
         <picture>
-          <source srcset="./images/texnokryk1x.jpg, ./images/texnokryk2x.jpg" media="(max-widht:767px)" 
+
+          <!-- Мобільне меню-->
+          <source srcset="./images/texnokryk1x.jpg 1x, ./images/texnokryk2x.jpg 2x" media="(max-widht: 480px)" 
           type="image/jpeg" />
+          
+          <!-- Планшентне меню-->
+
+          <source srcset="./images/texnokr1xtablet.jpg 1x, ./images/texnokr2xtablet.jpg 2x" media="(max-widht: 767px)" 
+type="image/jpg" />
   
           <img class="gallery-img"
-          src="./images/texnokryk1x.jpg"
-          src="./images/texnokryk2x.jpg"
-          alt="Фото"
-          width="450"
-          height="294"/>
+          src="./images/texnokryk1x.jpg" alt="Фото"/>
         </picture>
   <div class="section--overlay-card">
    <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -90,15 +93,20 @@
   <a class="section__span-shadow" href="">
   <div class="section__overlay">
     <picture>
-      <source srcset="./images/poster1x.jpg, ./images/poster2x.jpg" media="(max-widht:767px)" 
+          <!-- Мобільне меню-->
+      <source srcset="./images/poster1x.jpg 1x, ./images/poster2x.jpg 2x" media="(max-widht: 480px)" 
+      type="image/jpeg" />
+
+       
+      <!-- Планшентне меню-->
+      <source srcset="./images/poster1xtablet.jpg 1x, ./images/poster2xtablet.jpg 2x" media="(max-widht: 767px)" 
       type="image/jpeg" />
 
       <img class="gallery-img"
-      src="./images/poster1x.jpg"
+      src="./images/poster1x.jpg",
       src="./images/poster2x.jpg"
       alt="Фото"
-      width="450"
-      height="294"/>
+      />
     </picture>
   <div class="section--overlay-card">
     <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -117,15 +125,19 @@
   <a class="section__span-shadow" href="">
     <div class="section__overlay">
       <picture>
-        <source srcset="../images/restoran1x.jpg, ./images/restoran2x.jpg" media="(max-widht:767px)" 
+             <!-- Мобільне меню-->
+        <source srcset="./images/restoran1x.jpg 1x, ./images/restoran2x.jpg 2x" media="(max-widht: 480px)" 
+        type="image/jpeg" />
+
+        <!--  Планшетне меню-->
+
+        <source srcset="./images/restoran1xtablet.jpg 1x, ./images/restoran2xtablet.jpg 2x" media="(max-widht: 767px)" 
         type="image/jpeg" />
   
         <img class="gallery-img"
         src="./images/restoran1x.jpg"
         src="./images/restoran2x.jpg"
-        alt="Фото"
-        width="450"
-        height="294"/>
+        alt="Фото"/>
       </picture>
 <div class="section--overlay-card">
   <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -144,15 +156,18 @@
   <a class="section__span-shadow" href="">
   <div class="section__overlay">
     <picture>
-      <source srcset="./images/наушники1х.jpg, ./images/наушники 2х.jpg" media="(max-widht:767px)" 
+
+      <!--Мобільне меню-->
+      <source srcset="./images/наушники1х.jpg 1x, ./images/наушники 2х.jpg 2x" media="(max-widht: 480px)" 
+      type="image/jpeg" />
+      <!--Планшетне меню-->
+      <source srcset="./images/nayhniki1xtablet.jpg 1x, ./images/nayhniki2xtablet.jpg 2x" media="(max-widht: 767px)" 
       type="image/jpeg" />
 
       <img class="gallery-img"
       src="./images/наушники1х.jpg"
       src="./images/наушники 2х.jpg"
-      alt="Фото"
-      width="450"
-      height="294"/>
+      alt="Фото"/>
     </picture>
   <div class="section--overlay-card">
     <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -171,15 +186,16 @@
     <a  class="section__span-shadow" href="">
       <div class="section__overlay">
         <picture>
-          <source srcset="./images/box1х.jpg, ./images/box2х.jpg" media="(max-widht:767px)" 
+          <source srcset="./images/box1х.jpg 1x,  ./images/box2х.jpg 2x" media="(max-widht: 480px)" 
+          type="image/jpeg" />
+
+          <source srcset="./images/box1xtablet.jpg 1x, ./images/box2xtablet.jpg 2x" media="(max-widht: 767px)" 
           type="image/jpeg" />
     
           <img class="gallery-img"
           src="./images/box1х.jpg"
           src="./images/box2x.jpg"
-          alt="Фото"
-          width="450"
-          height="294"/>
+          alt="Фото"/>
         </picture>
 <div class="section--overlay-card">
   <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -197,15 +213,16 @@
   <a class="section__span-shadow" href="">
   <div class="section__overlay">
     <picture>
-      <source srcset="./images/monitor1x.jpg, ./images/monitor2x.jpg" media="(max-widht:767px)" 
+      <source srcset="./images/monitor1x.jpg, ./images/monitor2x.jpg" media="(max-widht: 480px)" 
+      type="image/jpeg" />
+
+      <source srcset="./images/monitor1xtablet.jpg 1x, ./images/monitor2xtablet.jpg 2x" media="(max-widht: 768px)" 
       type="image/jpeg" />
 
       <img class="gallery-img"
       src="./images/monitor1x.jpg"
       src="./images/monitor2x.jpg"
-      alt="Фото"
-      width="450"
-      height="294"/>
+      alt="Фото"/>
     </picture>
  <div class="section--overlay-card">
   <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -223,15 +240,17 @@
     <a class="section__span-shadow" href="">
     <div class="section__overlay">
       <picture>
-        <source srcset="./images/журнал1х.jpg,  ./images/журнал2х.jpg" media="(max-widht:767px)" 
+        <source srcset="./images/журнал1х.jpg 1x,  ./images/журнал2х.jpg 2x" media="(max-widht: 480px)" 
         type="image/jpeg" />
   
+        <source srcset="./images/jurnal1xtablet.jpg 1x, ./images/jurnal2xtablet.jpg 2x" media="(max-widht: 767px)" 
+        type="image/jpeg" />
+
+
         <img class="gallery-img"
         src="./images/журнал1х.jpg"
         src="./images/журнал2х.jpg"
-        alt="Журнал"
-        width="450"
-        height="294"/>
+        alt="Журнал"/>
       </picture>
     <div class="section--overlay-card">
       <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -249,15 +268,16 @@
       <a class="section__span-shadow" href="">
       <div class="section__overlay">
         <picture>
-          <source srcset="./images/ярлик1х.jpg,  ./images/ярлик2х.jpg" media="(max-widht:767px)" 
+          <source srcset="./images/ярлик1х.jpg 1x,  ./images/ярлик2х.jpg 2x" media="(max-widht: 480px)" 
+          type="image/jpeg" />
+
+          <source srcset="./images/ярлик1хtablet.jpg 1x, ./images/ярлик2хtablet.jpg 2x" media="(max-widht: 767px)" 
           type="image/jpeg" />
     
           <img class="gallery-img"
           src="./images/ярлик1х.jpg"
           src="./images/ярлик2х.jpg"
-          alt="Журнал"
-          width="450"
-          height="294"/>
+          alt="Журнал"/>
         </picture>
       <div class="section--overlay-card">
         <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -275,15 +295,16 @@
         <a class="section__span-shadow" href="">
         <div class="section__overlay">
           <picture>
-            <source srcset="./images/computer1x.jpg,  ./images/computer2x.jpg" media="(max-widht:767px)" 
+            <source srcset="./images/computer1x.jpg 1x,  ./images/computer2x.jpg 2x" media="(max-widht: 480px)" 
+            type="image/jpeg" />
+
+            <source srcset="./images/набор текста1хtablet.jpg 1x, ./images/набор текста2хtablet.jpg 2x" media="(max-widht: 767px)" 
             type="image/jpeg" />
       
             <img class="gallery-img"
             src="./images/computer1x.jpg"
             src="./images/computer2x.jpg"
-            alt="Журнал"
-            width="450"
-            height="294"/>
+            alt="Набор текста"/>
           </picture>
       <div class="section--overlay-card">
         <p class="section__overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.

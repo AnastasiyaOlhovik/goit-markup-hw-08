@@ -6,6 +6,12 @@
         padding-top: 60px;
         padding-bottom: 60px;} 
 
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+            padding-top: 60px;
+                padding-bottom: 60px;
+        }  
+
+
 
 &__team-card {
     justify-content: space-between; 
@@ -15,7 +21,12 @@
 
     @media screen and (min-width:480px) {
         display: block;
-        margin-top: 30px;}}
+        margin-top: 30px;}
+    
+    
+    @media screen and (min-width:767px){ 
+        display: flex;
+        flex-wrap: wrap;}}
     
     
 &--srift { color: var(--title-text-color);
@@ -75,6 +86,15 @@ text-align: center;
     width: 450px;
     height: 622px;}
 
+
+@media screen and (min-width:767px)  and (max-width:1199px){
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 354px;
+    height: 536px;}
 
 @media screen and (min-width:480px)  and (max-width:767px) {
     &:not(:last-child) {

@@ -145,15 +145,21 @@
 <ul class="section__team-card">
     <li class="section__worker"> 
       <picture>
-        <source srcset="./images/demiynenko1x.jpg, ./images/demiynenko2x.jpg" media="(max-widht:767px)" 
-        type="image/jpeg" />
+        <source srcset="
+        ./images/demiynenko1x.jpg 1x,
+        ./image/demiynenko2x.jpg  2x" 
+        media="(min-widht:480px)" 
+        type="img/jpg"/>
 
-        <img class="gallery-img"
+        <source srcset="
+        ./images/dem1xtablet.jpg 1x,
+        ./images/dem2xtablet.jpg 2x" 
+        media="(min-widht:768px)"
+         type="img/jpg" />
+
+      <img class="gallery-img"
         src="./images/demiynenko1x.jpg"
-        src="./images/demiynenko2x.jpg"
-        alt="Фото"
-        width="450"
-        height="460"/>
+        src="./images/demiynenko2x.jpg"/>
       </picture>
     <div class="section--team">
     <h3 class="section--text">Игорь Демьяненко</h3> 
@@ -192,15 +198,18 @@
   </li>
   <li class="section__worker"> 
     <picture>
-    <source srcset="./images/repina1x.jpg, ./images/repina2x.jpg" media="(max-widht:767px)" 
-    type="image/jpeg" />
+    <source srcset="./images/repina1x.jpg 1x, 
+                    ./images/repina2x.jpg 2x" media="(max-widht:480px)" 
+    type="image/jpg" />
+
+    <source srcset="/images/repina1xtablet.jpg 1x,
+                    /images/repina2xtablet.jpg 2x" media="(max-widht:767px)" 
+    type="image/jpg" />
 
     <img class="gallery-img"
     src="./images/repina1x.jpg"
     src="./images/repina2x.jpg"
-    alt="Фото"
-    width="450"
-    height="460"/>
+    alt="Фото"/>
   </picture>
       <div class="section--team">
     <h3 class="section--text"> Ольга Репина </h3> 
@@ -239,15 +248,16 @@
   </li>
     <li class="section__worker"> 
       <picture>
-        <source srcset="./images/tarasov1x.jpg, ./images/tarasov2x.jpg" media="(max-widht:767px)" 
+        <source srcset="./images/tarasov1x.jpg, ./images/tarasov2x.jpg" media="(min-widht:480px)" 
+        type="image/jpeg" />
+
+        <source srcset="./images/tarasov1xtablet.jpg 1x, ./images/tarasov2xtablet.jpg 2x " media="(min-widht:767px)" 
         type="image/jpeg" />
     
         <img class="gallery-img"
         src="./images/tarasov1x.jpg"
         src="./images/tarasov2x.jpg"
-        alt="Фото"
-        width="450"
-        height="460"/>
+        alt="Фото"/>
       </picture>
       <div class="section--team">
       <h3 class="section--text"> Николай Тарасов </h3> 
@@ -285,15 +295,16 @@
     </div>
    </li>
     <li class="section__worker">  <picture>
-      <source srcset="./images/ermakov1x.jpg, ./images/ermakov2x.jpg" media="(max-widht:767px)" 
-      type="image/jpeg" />
-  
+      <source srcset="./images/ermakov1x.jpg, ./images/ermakov2x.jpg" media="(min-widht:480px)" 
+      type="image/jpg" />
+
+      <source srcset="./images/ermakov1xtablet.jpg 1x, ./images/ermakov2xtablet.jpg 2x" media="(min-widht:480px)" 
+      type="image/jpg" />
+
       <img class="gallery-img"
       src="./images/ermakov1x.jpg"
       src="./images/ermakov2x.jpg"
-      alt="Фото"
-      width="450"
-      height="460"/>
+      alt="Фото"/>
     </picture>
       <div class="section--team">
       <h3 class="section--text"> Михаил Ермаков </h3> 
