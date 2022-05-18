@@ -1,26 +1,24 @@
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    
 
 &__filter-nav {
-    margin-bottom: 50px;
-    text-align: center;
+    
+    
 
     @media screen and (min-width:480px)  and (max-width:767px) {
-        text-align: inherit;}
+        text-align: inherit;
+        margin-bottom: 40px;}
 
-    @media screen and (min-width:768px) and (max-width: 1200px){
-        margin-bottom: 50px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
         text-align: center;
         display: block ruby;}
     }
 
-    @media screen and (max-width:480px)  and (min-width:767px){
+    @media screen and (min-width:480px)  and (max-width:767px){
     &__filter-only {margin-top: 15px;}}
 
 
-    @media screen and (max-width:768px){
-        &__filter-only {margin-left: 8px;}}
 
   
 
