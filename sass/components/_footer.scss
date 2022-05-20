@@ -2,9 +2,11 @@
     display: flex;
     align-items: baseline;  
 
-    @media screen and (min-width:480px)  and (max-width:1199px) {
+    @media screen and (min-width:320px)  and (max-width: 1199px) {
         display: block;
         text-align: center;}
+
+
 
 
 &__logo-second {
@@ -94,12 +96,13 @@ color: rgba(255, 255, 255, 0.6)}
 &__form-container {margin-left: auto;
 
     @media screen and (min-width: 768px)  and (max-width: 1199px){
-        display: block;}}
+        display: block;
+        margin-top: 60px;}}
 
 &__all-form {
     display: flex;
 
-    @media screen and (min-width:480px) and (max-width: 767px) {
+    @media screen and (min-width:320px) and (max-width: 767px) {
         display: block;}
 
         @media screen and (min-width: 768px)  and (max-width: 1199px){
@@ -118,12 +121,17 @@ color: rgba(255, 255, 255, 0.6)}
      padding: 16px;
      border-radius: 4px;
      border: 1px solid rgba(255, 255, 255, 0.3);
+
+     @media screen and (min-width:320px)  and (max-width:480px){
+         width: 265px;
+         display: block;
+     }
     
      @media screen and (min-width:480px)  and (max-width:767px) {
          width: 418px;}
     
     @media screen and  (max-width: 768px) {
-        width: 450px;}}
+        width: 418px;}}
 
 
 &__form-btn {
@@ -169,7 +177,7 @@ color: rgba(255, 255, 255, 0.6)}
         font-weight: 700;
         letter-spacing:0.03em;
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:320px) and (max-width: 480px) {
             margin-top: 60px;}}
     
 &__centre-btn {
@@ -182,7 +190,7 @@ color: rgba(255, 255, 255, 0.6)}
         background-color: #188ce8;}}
 
 @media screen and (min-width: 768px)  and (max-width: 1199px) 
-        {  section-contacts {
+        {  .section-contacts {
             display: flex;
             padding: 0;
             justify-content: center;}}       

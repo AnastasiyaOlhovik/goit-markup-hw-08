@@ -69,14 +69,18 @@ font-size: 36px;
 text-align: center;
 
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 767px){
 font-size: 28px;
 font-style: bold;
 text-align: center;
 line-height: 1.17;
 margin-bottom: 30px;
 letter-spacing: 0.03em;
-color:  rgba(33, 33, 33, 1);}}
+color:  rgba(33, 33, 33, 1);}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    margin-bottom: 30px;
+}}
 
 &__worker{
   
