@@ -2,10 +2,8 @@
     
 
 &__filter-nav {
-    
-    
-
-    @media screen and (min-width:480px)  and (max-width:767px) {
+   
+@media screen and (min-width:480px)  and (max-width:767px) {
         text-align: inherit;
         margin-bottom: 40px;}
 
@@ -15,8 +13,12 @@
         display: block ruby;}
     }
 
-    @media screen and (min-width:480px)  and (max-width:767px){
+    @media screen and (max-width:480px)  and (max-width:767px){
     &__filter-only {margin-top: 15px;}}
+
+ 
+
+
 
 
 
